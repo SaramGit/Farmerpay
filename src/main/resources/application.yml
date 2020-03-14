@@ -1,0 +1,13 @@
+ spring:
+  h2:
+     console:
+      enabled: true
+  mvc :
+      view :
+        prefix : /WEB-INF/pages/
+        suffix : .jsp
+   
+ 
+ server:
+  port: 5252
+  
